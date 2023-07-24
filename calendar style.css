@@ -20,7 +20,7 @@
    
 }
 .logo{
-    background-image: url(C.png);
+    background-image: url(Images/C.png);
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -117,7 +117,7 @@ span{
     font-weight: 700;
 }
 .hero_section{
-    background-image: url(creating\ a\ creativity.png);
+    background-image: url(Images/creating\ a\ creativity.png);
     background-size: cover;
     height: 400px;
     display: flex;
