@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(Images/COVER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.Button{
+    position:relative;
+    top: 50px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+}
+button{
+    border-radius: 50%;
+}
+h2, p{
+    top: 60px;
+    background-color: rgba(245, 239, 239, 0.5);
+    position: relative;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+}

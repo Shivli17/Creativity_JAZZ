@@ -67,7 +67,7 @@
     border: none;
 }
 .search_icon{
-    width: 45px;
+    width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,13 +152,176 @@ span{
     padding: 20px 0px 15px;
     margin-top: 20px;
 }
+
+.box_img1{
+    background-image: url(Images/sparkling\ eyes-fotor-2023072131930.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img1:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+
+.box_img2{
+    background-image: url(Images/Radha\ Krishna-fotor-2023072135056.png);
+    height: 350px;
+    background-position: center;
+    background-size:  18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+    
+}
+.box_img2:hover{
+    background-image: url(Images/Radha\ krishna\ details.png);
+    background-size: 25rem;
+    background-position: center;
+    
+}
+.box_img3{
+    background-image: url(Images/Mozac\ wonders.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img3:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img4{
+    background-image: url(Images/Dreaming\ Lady-fotor-2023072133833.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img4:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img5{
+    background-image: url(Images/Minion.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img5:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img6{
+    background-image: url(Images/Retro\ Girl.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img6:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img7{
+    background-image: url(Images/Colourful\ lion.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img7:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img8{
+    background-image: url(Images/Ball\ pen\ tortoise.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img8:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img9{
+    background-image: url(Images/Red\ Eyes.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img9:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img10{
+    background-image: url(Images/Krishna.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img10:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img11{
+    background-image: url(Images/Boredm.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img11:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
+.box_img12{
+    background-image: url(Images/Self\ ball\ pen\ sketch.jpeg);
+    height: 350px;
+    background-position: center;
+    background-size: 18rem;
+    background-repeat: no-repeat;
+    transition-duration: 0.8s;
+}
+.box_img12:hover{
+    background-image: url(Images/Size.png);
+    background-size: 25rem;
+    background-position: center;
+}
 .box_img{
     height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
     margin-bottom: 0.2rem;
+    position: relative;
+    
 }
+
 .box_content{
     margin-left: 1rem;
     margin-right: 1rem;

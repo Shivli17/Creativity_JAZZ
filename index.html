@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art gallary</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" >
     <link rel="stylesheet" href="calendar style.css">
+    <script src="script.js" defer></script>
     
 </head>
 <body>
@@ -23,14 +24,18 @@
     </div>
 </div>
 
-<div class="nav_search">
+<div class="nav_search show">
     <select class="search_select">
         <option>All</option>
+        <option>Creativity_JAZZ</option>
     </select>
-    <input placeholder="Search paintings" class="search_input">
-    <div class="search_icon">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
+    <input type="text" name="search" placeholder="Search paintings" id="search" class="search_input">
+    
+    <button type="submit">
+        <div class="search_icon">
+        <i class="fa-solid fa-magnifying-glass fa-search"></i>
+    </div></button>
+
 </div>
 
 <div class="nav_signin border">
@@ -65,91 +70,91 @@
     </header>
 
     <div class="hero_section">
-        <div class="hero_ig"><p>Check out some amazing ideas on my instagram. Click here to navigate to <abbr title="https://www.instagram.com/invites/contact/?i=1np20o90khqrm&utm_content=p8d34jo"> Creativity_JAZZ</abbr> instagram account</p></div>
+        <div class="hero_ig"><p>Check out some amazing ideas on my instagram. Click here to navigate to <a href="https://instagram.com/creativity_jazz?igshid=MzNlNGNkZWQ4Mg==" target="_blank">creativity_jazz</a> instagram account.</p></div>
     </div>
     <div class="shop_section">
         <div class="box1 box">
             <div class="box_content">
                 <h2>Sparking eye closeup</h2>
-                <div class="box_img" style="background-image: url('Images/sparkling\ eyes-fotor-2023072131930.jpg');"></div>
-                <p>Shop now</p>
+                <div class="box_img1"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box2 box">
             <div class="box_content">
                 <h2>Radha Krishna</h2>
-                <div class="box_img" style="background-image: url('Images/Radha\ Krishna-fotor-2023072135056.png');"></div>
-                <p>Shop now</p>
+                <div class="box_img2"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box3 box">
             <div class="box_content">
                 <h2>Mosaic wonders</h2>
-                <div class="box_img" style="background-image: url('Images/Mozac\ wonders.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img3"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box4 box">
             <div class="box_content">
                 <h2>Dreaming Lady</h2>
-                <div class="box_img" style="background-image: url('Images/Dreaming\ Lady-fotor-2023072133833.jpg');"></div>
-                <p>Shop now</p>
+                <div class="box_img4"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box1 box">
             <div class="box_content">
                 <h2>Ball pen Minion</h2>
-                <div class="box_img" style="background-image: url('Images/Minion.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img5"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box2 box">
             <div class="box_content">
                 <h2>Classic Retro Girl</h2>
-                <div class="box_img" style="background-image: url('Images/Retro\ Girl.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img6"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box3 box">
             <div class="box_content">
                 <h2>Dramatic Lion</h2>
-                <div class="box_img" style="background-image: url('Images/Colourful\ lion.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img7"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box4 box">
             <div class="box_content">
                 <h2>Let the tortoise won</h2>
-                <div class="box_img" style="background-image: url('Images/Ball\ pen\ tortoise.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img8"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box1 box">
             <div class="box_content">
                 <h2>Death in the Red Eye</h2>
-                <div class="box_img" style="background-image: url('Images/Red\ Eyes.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img9"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box2 box">
             <div class="box_content">
                 <h2>Lord Krishna</h2>
-                <div class="box_img" style="background-image: url('Images/Krishna.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img10"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box3 box">
             <div class="box_content">
                 <h2>Boredom</h2>
-                <div class="box_img" style="background-image: url('Images/Boredm.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img11"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
         <div class="box4 box">
             <div class="box_content">
                 <h2>Jazzing ball pen</h2>
-                <div class="box_img" style="background-image: url('Images/Self\ ball\ pen\ sketch.jpeg');"></div>
-                <p>Shop now</p>
+                <div class="box_img12"></div>
+                <p><a href="payment.html" target="_blank">Shop now</a></p>
             </div>
         </div>
     </div>
